@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background: #D6E1FF; 
+    background-image: url('./images/pattern-background-desktop.svg'); 
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.buttom{
+    text-align: center;
+}
+
+.buttom h2{
+    margin:20px 0 ;
+    color: rgb(21, 21, 73);
+}
+
+.buttom p{
+    margin: 0 20px;
+}
+
+.pay{
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.pay .payamount{
+    margin: 0 auto 0 20px;
+}
+
+.processorder{
+    width: 80%;
+    margin:20px auto;
+    background-color: rgb(135, 68, 243);
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cancel{
+    text-align: center;
+}
